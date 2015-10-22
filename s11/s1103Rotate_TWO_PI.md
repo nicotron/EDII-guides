@@ -12,12 +12,12 @@ De esta manera `angulo` es la variable que cambiamos y que tiene valores que con
 Por defecto el 0 queda en la posicón del 3 en un reloj circular, ¿cómo podemos hacer que el 0 inicie a las 12 del reloj circular?
 
 **Uso  
-cambiar variables por a y af
-usarla en el draw para que se actualice la expresión
-translate
-rotate(af)
-linea
-
+cambiar variables por a y af  
+usarla en el draw para que se actualice la expresión  
+translate  
+rotate(af)  
+linea  
+  
 key pressed 
 a++;
 
