@@ -74,5 +74,3 @@ void mousePressed() {
 
 #Recomendaciones
 Para asegurarnos que Processing escribió bien el archivo que hemos creado tenemos que llamar a la función `exit()` después de `save`, `saveFrame`, `endRecord`; así la ventana del canvas se cierrará y tendremos el archivo creado y seguro.
-
-Pedirle a los alumnos que incorporen `saveFrame` método para guardar el ejercicio `s04e01.pde` y luego mostrar **Tools > Movie Maker** y un `pdf` en `s10t01.pde`
