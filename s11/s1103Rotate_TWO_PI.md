@@ -9,15 +9,21 @@ float conversion = angulo * TWO_PI/360;
 ```
 De esta manera `angulo` es la variable que cambiamos y que tiene valores que conocemos y `conversion` es la variable que Processing entiende, todos felices. 
 
-Por defecto el 0 queda en la posicón del 3 en un reloj circular, ¿cómo podemos hacer que el 0 inicie a las 12 del reloj circular?
+Por defecto el 0 queda en la posicón del 3 en un reloj circular, ¿cómo podemos hacer que el 0 inicie a las 12 del reloj circular? Se puede crear una nueva variable para que sume `angulo` y así puedan usar `angulo como la variable que lee la base de datos. 
 
-**Uso  
-cambiar variables por a y af  
-usarla en el draw para que se actualice la expresión  
-translate  
-rotate(af)  
-linea  
-  
-key pressed 
-a++;
 
+**Uso**  
+Las rotaciones en Processing ocurren con el eje en las coordenadas 0,0 y todo lo que dibujemos debe tener esas coordenadas en los argumentos x,y. Para esto tenemos que usar la función `translate`. ¿Cómo sería el código para crear una línea que parta en el centro y rote?  
+```{processing}
+translate(width/2, height/2);
+rotate(af);
+line(0, 0, /* preguntar */ 200, 0);
+```
+Para saber que el ángulo es el correcto podemos ir imprimiéndolo en la consola `println(angulo)`  
+
+**¿Cómo podemos rotar en más de dos lugares?**  
+Si usamos el mismo bloque de texto y solamente cambiamos los argumentos en `translate(width/2 + 100, height/2);` no funciona lo que queremos porque la función de `translate` se suma con la anterior. Tampoco podemos usar `translate(100, 0);` porque nuevamente sumará la función anterior. 
+Para hacerlo hay que incorporar un método llamado `pushMatrix` y `popMatrix`  
+Se usa `pushMatrix` al inicio del bloque de texto que queremos modificar y `popMatrix` al final por cada elemento que queramos rotar.
+
+**Ahora, ¿como incorporarían este método a su trabajo; para usarlo por ejemplo en el ángulo de dirección del viento de la base de datos?**
