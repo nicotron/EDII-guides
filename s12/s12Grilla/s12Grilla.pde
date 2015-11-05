@@ -41,16 +41,16 @@ void draw() {
 //      textAlign(CENTER);
 //      text(nums, x1, y1);
 
-        funcion(x, y, vientoDirT, vientoDir);
+        funcion(x1, y1, vientoDirT, vientoDir);
       
 //      println('y' + " + " + 'x' + " * cols" + " = " + "nums");
 //      println(y + " + " + x *cols  + " = " + nums);
       }
     }
   }
-//  noLoop();
-//  saveFrame("s12Grilla01-12x31-365-de-371.png");
-//  exit();
+  noLoop();
+  saveFrame("s12Grilla01-12x31-funcion-lectura-doble-de-misma-columna.png");
+  exit();
 }
 
 
