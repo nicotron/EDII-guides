@@ -2,11 +2,20 @@
 //s10t01dos
 
 int cols, filas;
+String datos[];
+String dia[][];
+
 void setup() {
-  size(800, 800);
+  size(1000, 800);
   smooth();
-  cols = 5;
-  filas = 7;
+  cols = 12;
+  filas = 31;
+  
+  datos = loadStrings("paris2014clima.csv");
+  dia = new String[datos.length][23];
+  for (int i = 0; i < datos.length; i++) {
+    dia[i] = datos[i].split(",");
+  }
 }
 
 void draw() {
@@ -15,11 +24,33 @@ void draw() {
     for (int y = 0; y < cols; y++) {
       float x1 = x * (width/filas) + (width/(filas*2));
       float y1 = y * (height/cols) + (height/(cols*2));
-      ellipse(x1, y1, 5, 5);
+//      noStroke();
+//      fill(y * 45);
+//      ellipse(x1, y1, 15,15);
+      
+//      fill(0);
+//      textAlign(CENTER);
+//      text("x " + x + " , " + "y " + y, x1, y1);
+
+      int nums = 1 + y+x*cols;
+      if ((nums >= 0) && (nums < datos.length)){
+        String vientoDirT = dia[nums][22];
+        float vientoDir = float(dia[nums][22]);
+//      int nums = x+y*filas;
+//      fill(0);
+//      textAlign(CENTER);
+//      text(nums, x1, y1);
+
+        funcion(x, y, vientoDirT, vientoDir);
+      
+//      println('y' + " + " + 'x' + " * cols" + " = " + "nums");
+//      println(y + " + " + x *cols  + " = " + nums);
+      }
     }
   }
-  saveFrame("s12Grilla01-7x5-ellipse.png");
-  exit();
+//  noLoop();
+//  saveFrame("s12Grilla01-12x31-365-de-371.png");
+//  exit();
 }
 
 
