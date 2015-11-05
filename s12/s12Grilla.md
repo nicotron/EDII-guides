@@ -1,4 +1,4 @@
-#Cómo usar una menos lugares de los que un doble for loop nos da
+#Cómo usar menos lugares de los que un doble for loop nos da
 *EXPLICAR EN LA PIZZARA EL PROCESSO QUE HAREMOS YA QUE UNO ES PARA X e Y Y EL OTRO ES PARA IR DE 1 AL 365*  
 Anteriormente hemos usado un doble for loop para dibujar una grilla de puntos a través del canvas, pero siempre ha sido la totalidad, si el primer for loop tiene 5 espacios y el segundo tiene 10, **siempre hemos tenido 50 elementos en el canvas**. Si queremos usar este método en conjunto con los elementos de nuestra base de datos, el escenario es **levemente complejo.**  
 
