@@ -105,7 +105,8 @@ De esta forma ya tenemos:
 
 Con todo esto podemos crear nuestra función que dibujará todo lo que queramos dentro de la base de datos
 **Recuerden que también pueden leer más de una vez cada columna**  
-Por ejemplo si usan la variable de dirección del viento para rotar, pero también la pueden usar para escribir el valor en forma de `String`
+Por ejemplo si usan la variable de dirección del viento para rotar, pero también la pueden usar para escribir el valor en forma de `String`  
+*hacer la clase de rotate translate pushpop* [link](https://github.com/nicotron/EDII-guides/blob/master/s11/s1103Rotate_TWO_PI.md)
 ```{processing}
 vientoAngulo = float(dia[nums][22]);
 vientoAnguloTexto = dia[nums][22];
