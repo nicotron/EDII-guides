@@ -48,9 +48,9 @@ void draw() {
       }
     }
   }
-  noLoop();
-  saveFrame("s12Grilla01-12x31-funcion-lectura-doble-de-misma-columna.png");
-  exit();
+//  noLoop();
+//  saveFrame("s12Grilla01-12x31-funcion-lectura-doble-de-misma-columna.png");
+//  exit();
 }
 
 
