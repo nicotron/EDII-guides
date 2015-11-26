@@ -50,3 +50,6 @@ Cantidad de postproducción
 Examen digital:  
 RGB + transparencia vs HSB  
 Resolución de la pantalla de trabajo vs la resolución del proyector y el tamaño final del pixel proyectado  
+
+Como crear archivos de extensión md  
+[link](https://help.github.com/articles/github-flavored-markdown/)
