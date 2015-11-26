@@ -19,14 +19,14 @@ El examen tiene dos objetivos:
 
 **Objetivo 1:** consiste en opciones con diferente nivel de complejidad.  
 Los alumnos podrán elegir entre diferentes opciones para realizar en ese campo su examen, los campos son:  
-**A - Visualizar datos de manera impresa:** Consiste en desarrollar diferentes funciones (incluso programas) para mostrar datos de forma total o parcial, la cantidad a usar es de 10 años de la misma ciudad o una misma ciudad por 10 años, realizando comparaciones de diferentes datos que logren diferentes caminos y profundid de lectura. El formato de impresión es decición del alumno la cual será cuestionada en función de la intensión que se quiera lograr.  
+**A - Visualizar datos de manera impresa:** Consiste en desarrollar diferentes funciones (incluso programas) para mostrar datos de forma total o parcial, la cantidad a usar es de 10 años de la misma ciudad o un año en 10 ciudades distintas, realizando comparaciones de diferentes datos que logren diferentes caminos y profundidad de lectura. El formato de impresión es decición del alumno la cual será cuestionada en función de la intensión que se quiera lograr.  
 
-**B - Visualizar datos de manera digital:** El alumno deberá entregar un sólo programa con todo el código necesario para lograr el **objetivo 1.** Al ser un exmane digital es mandatorio que exista movimiento, interacción y navegación usando los datos de una ciudad por un año. La entrega se verá a través en un proyector por lo que debe haber una preocupación por los tamaños de lo escrito en relación a la resolución. 
+**B - Visualizar datos de manera digital:** El alumno deberá entregar un sólo programa con todo el código necesario para lograr el **objetivo 1.** Al ser un examen digital es mandatorio que exista movimiento, interacción y navegación usando los datos de una ciudad por un año. La entrega se verá a través en un proyector por lo que debe haber una preocupación por los tamaños de lo escrito en relación a la resolución. 
 
 **C - Modificación de imágenes digitales:** Se deberá crear un programa que utilice como datos imágenes estáticas o la cámara de un computador, la modificación de las imágenes deberá contener movimiento e interacción para lograr que los pixeles de la imagen se muevan en relación de factores de color RGB, brillo y posición, creando diferentes visualizaciones, formas o imágenes.  
 
 **Objetivo 2:** Formato de documentación a entregar.  
-Para culminar el examen y el semestre en donde se han aprendido procesos de documentación y control de versión de código, será necesario realizar una documentación total del semestre y una del examen.  
+Para culminar el examen y el semestre en donde se han aprendido procesos de documentación y control de versión de código, será necesario realizar una documentación total del semestre y del examen.  
 Entrega del proceso del semestre:  
 1 - Crear un repositorio de los trabajos del semestre **en la cuenta de usuario de cada alumno.**  
 2 - Realizar un commit con todos los archivos de Processing y bases de datos dentro de cada carpeta de cada semana.  
@@ -42,11 +42,11 @@ Al leer este archivo debe quedar claro todo lo que se puede hacer.
 ---
 **Recomendaciones**  
 Examen impreso:  
-RGB vs CMYK
+RGB vs CMYK  
 Tamaños de trabajo en pantalla vs tamaño y calidad de la impresión  
-Valores de transparencias en RGB vs CMYK
-Cantidad de postproducción
+Valores de transparencias en RGB vs CMYK  
+Cantidad de postproducción  
 
 Examen digital:  
-RGB + transparencia vs HSB
-Resolución de la pantalla de trabajo vs la resolución del proyector y el tamaño final del pixel proyectado
+RGB + transparencia vs HSB  
+Resolución de la pantalla de trabajo vs la resolución del proyector y el tamaño final del pixel proyectado  
