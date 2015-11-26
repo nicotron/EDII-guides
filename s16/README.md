@@ -7,7 +7,7 @@ Durante el período Agosto a Diciembre de 2015.
 Curso dictado por:
 Nicolás Troncoso [@nicotron](http://www.twitter.com/nicotron/)
 
-**Alumnos de la clase (11 de 11):** Angélica Diaz - Andrés Marin - Bernardita Lira - Isidora Garin - Isidora Vergara - Laura Calvo - Maximiliano Cordero - Paloma Sastre - Pascuala Sylleros - Sofia Bellinghausen - Vicente Politeo.
+**Alumnos de la clase (11 de 11):** Angélica Diaz - Andrés Marin - Bernardita Lira - Isidora Garin - Isidora Vergara - Laura Calvo - Maximiliano Cordero - Paloma Sastre - Pascuala Sylleros - Sofia Bellinghausen - Vicente Politeo.  
 **Ayudante:** Javiera de la Fuente  
 
 ---
@@ -19,7 +19,7 @@ El examen tiene dos objetivos:
 
 **Objetivo 1:** consiste en opciones con diferente nivel de complejidad.  
 Los alumnos podrán elegir entre diferentes opciones para realizar en ese campo su examen, los campos son:  
-**A - Visualizar datos de manera impresa:** Conciste en desarrollar diferentes funciones (incluso programas) para mostrar datos de forma total o parcial, la cantidad a usar es de 10 años de la misma ciudad o una misma ciudad por 10 años, realizando comparaciones de diferentes datos que logren diferentes caminos y profundid de lectura. El formato de impresión es decición del alumno la cual será cuestionada en función de la intensión que se quiera lograr.  
+**A - Visualizar datos de manera impresa:** Consiste en desarrollar diferentes funciones (incluso programas) para mostrar datos de forma total o parcial, la cantidad a usar es de 10 años de la misma ciudad o una misma ciudad por 10 años, realizando comparaciones de diferentes datos que logren diferentes caminos y profundid de lectura. El formato de impresión es decición del alumno la cual será cuestionada en función de la intensión que se quiera lograr.  
 
 **B - Visualizar datos de manera digital:** El alumno deberá entregar un sólo programa con todo el código necesario para lograr el **objetivo 1.** Al ser un exmane digital es mandatorio que exista movimiento, interacción y navegación usando los datos de una ciudad por un año. La entrega se verá a través en un proyector por lo que debe haber una preocupación por los tamaños de lo escrito en relación a la resolución. 
 
